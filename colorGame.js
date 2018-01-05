@@ -48,7 +48,7 @@ colorDisplay.textContent = pickedColor;
 for (var i=0; i<squares.length; i++){
 squares[i].style.backgroundColor=colors[i];}
 h1.style.backgroundColor="steelblue";
-
+messageDisplay.textContent = "";
 });
 
 for (var i=0; i<squares.length; i++){
